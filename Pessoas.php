@@ -38,4 +38,48 @@ class Pessoas {
     }
 }
 
+class Funce {
+    private $nome;
+    private $cargo;
+    private $cpf;
+    private $salario;
+    private $telefone;
+    private $email;
+
+    public function __construct($nome, $cargo, $cpf, $salario, $telefone, $email) {
+        $this->nome = $nome;
+        $this->cargo = $cargo;
+        $this->cpf = $cpf;
+        $this->salario = $salario;
+        $this->telefone = $telefone;
+        $this->email = $email;
+
+
+    }
+
+    public function getNome() {
+        return $this->nome;
+    }
+
+    public function getCargo() {
+        return $this->cargo;
+    }
+
+    public function getCpf() {
+        return $this->cpf;
+    }
+
+    public function getSalario() {
+        return $this->salario;
+    }
+
+    public function getTelefone() {
+        return $this->telefone;
+    }
+
+    public function getEmail() {
+        return $this->email;
+    }
+}
+
 ?>

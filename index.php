@@ -6,7 +6,7 @@ include("Pessoas.php");
 include("Funcionarios.php");
 include("Clientes.php");
 include("Produtos.php");
-include("servicos.php");
+include("Servics.php");
 include("veiculos.php");
 
 $veiculo = new Veiculos (
@@ -14,7 +14,6 @@ $veiculo = new Veiculos (
     "CHEVROLET",
     "R$54,90",
     "2018"
-
 );
 
 $veiculo->listarDados();
@@ -26,6 +25,8 @@ $cliente = new Clientes(
     44623498709,
     "Ataque cardíaco"
 );
+
+$cliente->listarDados();
 
 $funcionario = new Funcionarios(
     "Wagner",
@@ -40,10 +41,10 @@ $funcionario->listarDados();
 
 ?>
 <?php
-$servicos = new servicos (
-    "Cremação";
-    "10.000",
-    "Seu ente querido será queimado com todo carinho, sem sentir dor <3",
+$servicos = new Servics (
+    "Cremação",
+    10000,
+    "Seu ente querido será queimado com todo carinho, sem sentir dor "
 
 );
 

@@ -31,7 +31,7 @@ class objeto {
     }
 }    
 
-class servicos {
+class Servicos {
     private $nome;
     private $valor;
     private $descricao;
@@ -57,5 +57,3 @@ class servicos {
 }    
 
 ?>
-
-
