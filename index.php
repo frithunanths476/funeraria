@@ -1,5 +1,14 @@
 
 <?php
+
+include("Pessoas.php");
+include("Funcionarios.php");
+include("Clientes.php");
+include("Interface.php");
+include("Produtos.php");
+include("servicos.php");
+include("veiculos.php");
+
 $veiculo = new Veiculos (
     "FRR0126";
     "CHEVROLET",
@@ -9,18 +18,6 @@ $veiculo = new Veiculos (
 );
 
 $veiculo->listarDados();
-?>
-
-
-<?php
-
-include("Pessoas.php");
-include("Funcionarios.php");
-include("Clientes.php");
-include("Interface.php");
-include("Produtos.php");
-include("servicos.php");
-include("veiculos.php");
 
 $cliente = new Clientes(
     "José Igor Aparecido dos Santos",
