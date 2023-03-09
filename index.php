@@ -37,6 +37,9 @@ $funcionario = new Funcionarios(
     2037,
     99816782,
     "Wagner.lobo@gmail.com"
- )
+);
+
+$funcionario->listarDados();
+
 ?>
 
