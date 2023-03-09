@@ -1,16 +1,16 @@
 
 <?php
-
+include("InterfaceFuneraria.php");
+include("objeto.php");
 include("Pessoas.php");
 include("Funcionarios.php");
 include("Clientes.php");
-include("Interface.php");
 include("Produtos.php");
 include("servicos.php");
 include("veiculos.php");
 
 $veiculo = new Veiculos (
-    "FRR0126";
+    "FRR0126",
     "CHEVROLET",
     "R$54,90",
     "2018"

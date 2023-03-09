@@ -1,6 +1,6 @@
 <?php
 
-class Clientes extends Pessoas{
+class Clientes extends Pessoas implements InterfaceFuneraria{
 
     public function __construct($nome, $idade, $altura, $CPF, $obito) {
         parent::__construct($nome, $idade, $altura, $CPF, $obito);

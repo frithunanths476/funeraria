@@ -1,6 +1,6 @@
 <?php
 
-interface Interface {
+interface InterfaceFuneraria {
     public function listarDados();
 }
 

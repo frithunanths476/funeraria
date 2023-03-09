@@ -1,6 +1,6 @@
 <?php
     
-class veiculos {
+class objeto {
     private $placa;
     private $marca;
     private $ipva;
