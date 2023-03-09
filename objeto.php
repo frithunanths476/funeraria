@@ -31,4 +31,42 @@ class veiculos {
     }
 }    
 
+class produtos {
+    private $nome;
+    private $GT;
+    private $valor;
+    private $altura;
+    private $largura;
+
+    public function __construct($nome, $GT, $valor, $altura, $largura){
+        $this->nome = $nome;
+        $this->GT = $GT;
+        $this->valor = $valor;
+        $this->altura = $altura;
+        $this->largura = $largura;
+
+    }
+
+    public function getNome() {
+        return $this->nome;
+    }
+
+    public function getGT() {
+        return $this->GT;
+    }
+
+    public function getValor() {
+        return $this->valor;
+    }
+
+    public function getAltura() {
+        return $this->altura;
+    }
+
+    public function getLargura() {
+        return $this->largura;
+    }
+
+}
+
 ?>

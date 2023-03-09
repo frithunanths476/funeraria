@@ -40,3 +40,17 @@ $funcionario = new Funcionarios(
  )
 ?>
 
+<?php
+    $produtos = new produtos (
+        "flores",
+        "1 coroa de flores",
+        "R$570,68",
+        "150cm",
+        "100cm"
+    
+    );
+    
+    $produtos->listarDados();
+
+?>
+
