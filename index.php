@@ -39,4 +39,13 @@ $funcionario = new Funcionarios(
     "Wagner.lobo@gmail.com"
  )
 ?>
+<?php
+$servicos = new servicos (
+    "Cremação";
+    "10.000",
+    "Seu ente querido será queimado com todo carinho, sem sentir dor <3",
 
+);
+
+$servicos->listarDados();
+?>
