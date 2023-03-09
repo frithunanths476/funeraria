@@ -31,6 +31,7 @@ class veiculos {
     }
 }    
 
+
 class produtos {
     private $nome;
     private $GT;
@@ -70,3 +71,34 @@ class produtos {
 }
 
 ?>
+<?php
+
+class servicos {
+    private $nome;
+    private $valor;
+    private $descricao;
+
+    public function __construct($nome, $valor, $descricao){
+        $this->nome = $nome;
+        $this->valor = $valor;
+        $this->descricao = $descricao;
+
+    }
+
+    public function getnome() {
+        return $this->nome;
+    }
+
+    public function getvalor() {
+        return $this->valor;
+    }
+
+    public function getdescricao() {
+        return $this->descricao;
+    }
+}    
+
+?>
+
+
+
