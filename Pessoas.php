@@ -14,23 +14,7 @@ class Pessoas {
         $this->CPF = $CPF;
         $this->obito = $obito;
 
-        if (!is_numeric($idade)) {
-            throw new Exception("Idade deve ser um número");
-        }
 
-        $this->idade = $idade;
-
-        if (!is_numeric($altura)) {
-            throw new Exception("Altura deve ser um número");
-        }
-
-        $this->altura = $altura;
-
-        if (!is_numeric($CPF)) {
-            throw new Exception("CPF deve ser um número");
-        }
-
-        $this->CPF = $CPF;
     }
 
     public function getNome() {

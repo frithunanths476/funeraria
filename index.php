@@ -18,7 +18,6 @@ include("Pessoas.php");
 include("Funcionarios.php");
 include("Clientes.php");
 include("Interface.php");
-include("Objetos.php");
 include("Produtos.php");
 include("servicos.php");
 include("veiculos.php");
@@ -26,8 +25,8 @@ include("veiculos.php");
 $cliente = new Clientes(
     "José Igor Aparecido dos Santos",
     92,
-    1.65,
-    446.234.987-09,
+    165,
+    44623498709,
     "Ataque cardíaco"
 );
 
